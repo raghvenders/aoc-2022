@@ -43,7 +43,6 @@ func main() {
 		//fmt.Printf("Top 3 calories %v",day1.CalorieCounting(inputFile))
 		day1.Puzzel1()
 		fmt.Print(time.Now().Sub(start))
-		break
 	case "Day2":
 		//fmt.Printf("RPC Winner Stat %d", day2.RockPaperSisWin(inputFile))
 		end := time.Now()
@@ -53,7 +52,6 @@ func main() {
 		second := time.Now()
 		day2.Puzzel2()
 		fmt.Println(time.Now().Sub(second))
-		break
 	case "Day3":
 		end := time.Now()
 		day3.RucksackReorg(inputFile)
